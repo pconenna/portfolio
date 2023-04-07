@@ -1,4 +1,51 @@
+
 header{
     background-color: aqua;
-    border: 5px red solid;
+    /* border: 5px red solid; */
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    margin-left: 25px;
+}
+ nav{
+   margin: 25px 5px 5px;
+} 
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.about-me{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px black solid;
+    
+}
+.about-me h2{
+    flex: 1 1 auto;
+}
+.desc{
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    /* change font size at media breaks? */
+}
+#face{
+    flex: 1 1 auto;
+    max-width: 15%;
+    margin: 10px;
+}
+
+#intro{
+    display: inline-block;
+    flex: 1 1 auto;
+}
+
+.my-work{
+    display: flex;
 }
