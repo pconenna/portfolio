@@ -1,9 +1,14 @@
+body{
+    background-color: gray;
+}
 
+/* header styles */
 header{
     background-color: aqua;
     /* border: 5px red solid; */
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 header h1{
     margin-left: 25px;
@@ -18,12 +23,14 @@ nav a{
     margin-right: 20px;
 }
 
+/* about me styles */
 .about-me{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     border: 5px black solid;
+    margin-bottom: 100px;
     
 }
 .about-me h2{
@@ -46,6 +53,27 @@ nav a{
     flex: 1 1 auto;
 }
 
-.my-work{
+/* work section styles */
+
+#my-work h2{
+    flex: 1 1 auto;
+    align-self: center;
+}
+ .images{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+} 
+
+#bol{
+    flex: 1 1 100%;
+    height: auto;
+    max-width: 100%;
+}
+.bottom-img{
+    flex: 1 1 40%;
+}
+.images img{
+    margin: 1%;
 }
