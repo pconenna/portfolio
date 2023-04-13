@@ -9,6 +9,6 @@ The page has n nav bar that can be used to navigate the sections of the page. Th
 ## Credits 
 I obtained the background image from SVGBackgrounds.com. It is called "Endless Contsellation".
 I used a W3Schools tutorial as reference for making the image title cards. https://www.w3schools.com/howto/howto_css_image_overlay_title.asp
-I sued the Space Mono font from google Fonts https://fonts.google.com/specimen/Space+Mono?query=space+mono
+I used the Space Mono font from google Fonts https://fonts.google.com/specimen/Space+Mono?query=space+mono
 ## License 
 Pleaserefer to the license in the repo.
